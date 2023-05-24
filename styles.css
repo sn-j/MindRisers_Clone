@@ -178,7 +178,7 @@ ul #contact {
 }
 
 .courses .learn-more {
-  width: 32%;
+  width: 36%;
   height: 14%;
   background-color: green;
   position: absolute;
@@ -214,11 +214,14 @@ ul #contact {
   margin-top: 7px;
 }
 
+.main {
+  padding: 10px;
+}
+
 .main h1 {
-  margin-left: 115px;
+  margin-left: 90px;
   margin-top: 76px;
   font-size: 34px;
-  margin-bottom: 0px;
 }
 
 .main h4,
@@ -253,48 +256,60 @@ p {
   grid-gap: 50px;
   grid-template-columns: repeat(5, 1fr);
   padding: 60px 40px;
-  text-align: left;
-  overflow: hidden;
+}
+
+/* .mindrisers p {
+  word-wrap: break-word;
+} */
+.mindrisers p {
+  display: block;
+  width: 100%;
 }
 
 .mindrisers {
   width: 100%;
 }
 
-.mindrisers p {
-  padding-top: 10px;
+.heading {
+  text-align: left;
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.details p {
+  text-align: left;
 }
 
 .company {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 .company p {
-  padding-top: 10px;
-  cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .contactUs p {
-  padding-top: 10px;
-  cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .impt-links p {
-  padding-top: 10px;
-  cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .ft-socialicon {
   width: 80%;
   display: flex;
   padding-top: 10px;
-  justify-content: space-between;
+  padding-left: 5px;
+  content: space-between;
   cursor: pointer;
+  gap: 13px;
 }
 
 .talk label {
   display: block;
-  padding-top: 13px;
+  padding-top: 10px;
 }
 
 .talk input {
