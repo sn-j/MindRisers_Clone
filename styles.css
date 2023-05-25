@@ -174,6 +174,7 @@ ul #contact {
 
 .courses {
   position: relative;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -187,7 +188,7 @@ ul #contact {
   text-align: center;
   padding: 7px;
   border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-right-radius: 5px;
 }
 
 .courses .learn-more a {
@@ -224,8 +225,11 @@ ul #contact {
   font-size: 34px;
 }
 
-.main h4,
-p {
+.main h4 {
+  text-align: center;
+}
+
+.main p {
   text-align: center;
 }
 
@@ -289,6 +293,10 @@ p {
   margin-bottom: 10px;
 }
 
+.contactUs {
+  width: 100%;
+}
+
 .contactUs p {
   margin-bottom: 10px;
 }
@@ -309,7 +317,7 @@ p {
 
 .talk label {
   display: block;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .talk input {
@@ -334,4 +342,81 @@ footer {
   background-color: black;
   padding: 20px;
   color: whitesmoke
+}
+
+/* About US */
+#AboutUs {
+  background-color: #DDE6ED;
+  width: 100%;
+  margin-top: 37px;
+}
+
+.AboutUs_wrap {
+  display: flex;
+  gap: 65px;
+  padding: 51px 90px;
+  height: 320px;
+}
+
+.about1 {
+  width: 100%;
+}
+
+.about1 h1 {
+  margin-bottom: 20px;
+}
+
+.about1 p {
+  line-height: 1;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.about2 {
+  width: 100%;
+  height: 40%;
+}
+
+.about2 img {
+  border-radius: 10px;
+  width: 89%;
+  height: 237px;
+}
+
+/*  */
+#company_time {
+  margin-top: 54px;
+  margin-bottom: 56px;
+}
+
+.company_ts {
+  padding: 10px 111px;
+  display: flex;
+  justify-content: space-between;
+  color: green;
+}
+
+.company_ts span {
+  display: block;
+}
+
+.company_ts i {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+.company_ts p {
+  text-align: center;
+  font-size: 20px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+.company_ts span {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
 }
